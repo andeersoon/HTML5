@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Página principal</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+
+		<h2>Produtos</h2>
+
+		<!--trabalhando com tabelas-->
+		<table border="2" width="400">
+			<tr>
+				<th>Código</th>
+				<th>Produto</th>
+				<th>Preço</th>
+			</tr>
+
+			<tr>
+				<td>001</td>
+				<td>Notebook</td>
+				<td>R$ 2.500,99</td>
+			</tr>
+
+			<tr>
+				<td>002</td>
+				<td>Tablet</td>
+				<td>R$ 700,00</td>
+			</tr>
+
+			<tr>
+				<td>003</td>
+				<td>TV</td>
+				<td>R$ 3.300,50</td>
+			</tr>
+
+			<!--extendendo linhas e colunas na tabela-->
+			<tr>
+				<td rowspan="2">Desconto</td><!--rowspan -> extensão das linhas-->
+				<td colspan="2">cupom1 -R$ 10</td><!--colspan -> extensão das colunas-->
+			</tr>
+			<tr>
+				<td colspan="2">cupom2 -R$ 12</td>
+			</tr>
+
+			<tr>
+				<td>Total:</td>
+				<td colspan="2">R$ 6.479,49</td>
+			</tr>
+
+			<!--adicionando uma imagem na tabela-->
+			<tr>
+				<td colspan="3">
+					<img src="imagens/ferrari.jpg" width="100%">
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
